@@ -1,0 +1,190 @@
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.03);
+    padding: 16px 18px;
+    max-width: 980px;
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.statusChip {
+    background: #f3f4f6;
+    color: #374151;
+    border: 1px solid #e5e7eb;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.contentRow {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.description {
+    margin: 0;
+    color: #374151;
+    line-height: 1.5;
+}
+
+.rightMeta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background: #f3f4f6;
+    color: #374151;
+    border: 1px solid #e5e7eb;
+    padding: 6px 10px;
+    border-radius: 16px;
+    font-size: 12px;
+}
+
+.pdfLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #1f2937;
+    /* dark */
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 6px 8px;
+}
+
+.pdfLink:hover {
+    background: #f9fafb;
+}
+
+.pdfIcon {
+    /* width: 6px; */
+    /* height: 6px; */
+}
+
+.pdfName {
+    border-bottom: 1px solid transparent;
+}
+
+.pdfLink:hover .pdfName {
+    border-color: #d1d5db;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 12px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footerLeft {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #374151;
+}
+
+.calendarIcon {
+    font-size: 10px;
+}
+
+.dateText {
+    font-size: 14px;
+}
+
+.actions {
+    display: inline-flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnApprove {
+    background: #16a34a;
+    /* green-600 */
+    color: white;
+}
+
+.btnReject {
+    background: #ef4444;
+    /* red-500 */
+    color: white;
+}
+
+.btnApprove:hover {
+    background: #15803d;
+}
+
+.btnReject:hover {
+    background: #dc2626;
+}
+
+/* Small screens */
+@media (max-width: 640px) {
+    .contentRow {
+        grid-template-columns: 1fr;
+    }
+
+    .rightMeta {
+        justify-content: flex-start;
+    }
+}

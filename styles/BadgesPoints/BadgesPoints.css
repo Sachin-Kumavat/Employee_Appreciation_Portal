@@ -1,0 +1,192 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+.badges-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.progress-card {
+  background: linear-gradient(to right, #007bff, #004085);
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.progress-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-points p {
+  font-size: 1rem;
+  color: #b0c7e6;
+}
+
+.points {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.progress-bar-container {
+  max-width: 400px;
+  width: 100%;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  color: #b0c7e6;
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+  background-color: #0056b3;
+  border-radius: 10px;
+  height: 0.25rem;
+}
+
+.progress-bar-fill {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.points-rules {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #dfe2e5;
+}
+
+.points-rules h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.points-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.points-card {
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.points-card.green {
+  background-color: #e8f5e9;
+  border: 1px solid #81c784;
+}
+
+.points-card.blue {
+  background-color: #e3f2fd;
+  border: 1px solid #64b5f6;
+}
+
+.points-card.purple {
+  background-color: #f3e5f5;
+  border: 1px solid #ba68c8;
+}
+
+.points-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+}
+
+.badge-gallery {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #dfe2e5;
+}
+
+.badge-category h3 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.badge-item {
+  padding: 1rem;
+  background-color: #fafafa;
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.badge-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.locked {
+  opacity: 0.6;
+}
+
+.badge-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.lock-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #ccc;
+}
+
+.unlocked-date {
+  font-size: 0.75rem;
+  color: #fdd835;
+}

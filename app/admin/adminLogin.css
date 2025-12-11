@@ -1,0 +1,148 @@
+/* Container */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #bed4f1, white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+/* Card */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Branding */
+.login-brand {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.brand-icon {
+  width: 64px;
+  height: 64px;
+  background: #2563eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin: 0 auto 16px;
+}
+
+.brand-emoji {
+  font-size: 32px;
+}
+
+.brand-title {
+  color: #111827;
+  margin-bottom: 4px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.brand-subtitle {
+  color: #6b7280;
+}
+
+/* Form wrapper */
+.login-form-wrapper {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid #f3f4f6;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Label */
+.login-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+/* Password wrapper */
+.password-wrapper {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9ca3af;
+}
+
+.password-toggle:hover {
+  color: #4b5563;
+}
+
+/* Icons */
+.icon-size {
+  width: 20px;
+  height: 20px;
+  color: #6b7280;
+}
+
+/* Row */
+.login-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.forgot-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  color: #1d4ed8;
+}
+
+/* Support box */
+.support-box {
+  margin-top: 24px;
+  padding-top: 24px;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+}
+
+.support-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.support-link:hover {
+  color: #1d4ed8;
+}
+
+/* Footer */
+.footer-text {
+  text-align: center;
+  margin-top: 24px;
+  color: #9ca3af;
+}
